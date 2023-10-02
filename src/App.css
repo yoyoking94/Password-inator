@@ -6,7 +6,6 @@
   box-sizing: border-box;
 
   color: white;
-  font-family: 'JetBrains Mono', monospace;
 }
 
 .App {
@@ -21,115 +20,20 @@
   justify-content: center;
 }
 
-/* Title */
-.title {
-  margin-bottom: 31px;
+h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 32px;
+  line-height: 43px;
 }
 
-.title>span {
-  color: var(--grey, #817D92);
-  text-align: right;
-
-  /* Heading (M) */
-  font-family: JetBrains Mono;
+h2 {
+  font-family: 'JetBrains Mono', monospace;
   font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  line-height: 31px;
 }
 
-/* Preview */
-.preview {
-  margin-bottom: 24px;
-  padding: 19px 32px;
-
-  width: 540px;
-  height: 80px;
-  flex-shrink: 0;
-
-  background: var(--dark-grey, #24232C);
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.passwordPreview {
-  color: var(--almost-white, #E6E5EA);
-
-  /* Heading (L) */
-  font-family: JetBrains Mono;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-/* Setting */
-.setting {
-  padding: 24px 32px 32px 32px;
-
-  width: 540px;
-  height: 528px;
-  flex-shrink: 0;
-
-  background: var(--dark-grey, #24232C);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.setting>* {
-  width: 100%;
-}
-
-.characterLenghtTitle {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-  margin-bottom: 26px;
-
-}
-
-.characterLenghtTitle>:nth-child(1) {
-  color: var(--almost-white, #E6E5EA);
-
-  /* Body (M) */
-  font-family: JetBrains Mono;
+p {
+  font-family: 'JetBrains Mono', monospace;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.characterLenghtTitle>:nth-child(2) {
-  color: var(--neon-green, #A4FFAF);
-
-  /* Heading (L) */
-  font-family: JetBrains Mono;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.characterLenght input {
-  width: 100%;
-}
-
-
-/* Mobile devices */
-@media screen and (max-width: 540px) {
-  .preview {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .setting {
-    width: 100%;
-  }
+  line-height: 23px;
 }
