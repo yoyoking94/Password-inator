@@ -1,1 +1,1 @@
-![Password-inator](https://github.com/yoyoking94/Password-inator/assets/56436435/9ceb23b2-9cd8-40a5-8451-bb986c9f87fa)
+![Password-inator](https://github.com/yoyoking94/Password-inator/assets/56436435/9f40850f-45c0-4d34-bdfa-4b76a5ca8d96)
