@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Password-inator</h1>
+      <h1 className='title'>Password-inator</h1>
       <Preview />
       <Range />
       <Checkbox />
